@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+                        
+    <title>Instagram</title>
+</head>
+<body>
+<div class="container" >
+    <div class="row">
+        <div class="col-lg-6">
+        <img src= "img/telefone.png" class="phone">
+        </div>
+
+        <div class="col-lg-3">
+            <div class= " right-column text-center">
+                <img src="img/i-logo.png" class= "Instagram-logo">
+                <img src="img/perfil.jpg" class= "profilephoto">
+                <a href="https://www.instagram.com/alessandrafcampos/"
+                class="instagram-login" target="blank" >Continue como Alessandra</a><br>
+
+                <a id="Alerta" class="instagram-logout" onclick ="remover()">Remover conta</a>
+             </div>
+             <div class="group">
+                <p class="notaccount">Não é Alessandra?</p>
+                <p class="notaccount">
+                <span class="link-blue" onclick="alternar()">
+                    Alternar contas
+                </span> ou <span class="link-blue" onclick="inscrever()">Inscreva-se</span>
+            
+            </div>             
+            
+             <div class="col-lg-3 text-center">
+              
+                <div class="gettheapp">
+                    <p class="getapp">Baixe o Aplicativo</p>
+                   
+                 <img src="img/google_apple.jpg"class="download" onclick="app()">
+
+                                             
+                    
+                </div>
+                
+              
+                </div>
+
+             
+            </div>
+         
+     
+    </div>
+
+</div>
+<link rel="stylesheet" type= "text/javascript" href="js/script.js">
+<script>
+ function remover()
+{
+alert("Conta removida com sucesso")
+  
+}
+function alternar(){
+    alert("Conta alternada com sucesso")
+}
+function inscrever(){
+    alert("Você se inscreveu!")
+}
+function app(){
+   
+    alert("Obrigado por baixar o app")
+}
+</script>
+
+</body>
+
+
+
+</html>
